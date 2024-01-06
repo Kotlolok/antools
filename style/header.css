@@ -1,0 +1,63 @@
+.header {
+    padding-top: 26px;
+    padding-bottom: 58px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav-logo {
+    display: flex;
+    gap: 12px;
+    color: #fff;
+    align-items: center;
+}
+
+.header__nav-logo-title {
+    font-family: 'Poppins-SemiBold', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+}
+
+.header__nav-list {
+    display: flex;
+    gap: 43px;
+    align-items: center;
+}
+
+.header__nav-list-link {
+    color: #FFFFFF8C;
+}
+
+.header__nav-list-item {
+    display: flex;
+    gap: 8px;
+}
+
+.header__nav-list-item img {
+    margin-top: 2px;
+}
+
+.header__nav-logsign {
+    display: flex;
+    align-items: center;
+   gap: 41px;
+}
+.header__nav-logsign-link {
+    color: #FFFFFFC7;
+}
+.header__nav-logsign-link2 {
+    background: #FF6E30;
+    padding: 12px 28px;
+    border-radius: 8px;
+    color: #fff;
+    transition: .3s ease-in-out;
+}
+.header__nav-logsign-link2:hover {
+    background: #fff;
+    color: #FF6E30;
+}

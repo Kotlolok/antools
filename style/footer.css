@@ -1,0 +1,137 @@
+.footer {
+    border-top: 0.5px solid #FFFFFF26;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.footer__cards {
+    display: flex;
+}
+
+.footer__cards-card1 {
+    width: 280px;
+    height: 183px;
+}
+
+.footer__cards-card-logo {
+    display: flex;
+    gap: 12px;
+    color: #fff;
+    align-items: center;
+}
+
+.footer__cards-card-logo-title {
+    font-family: 'Poppins-SemiBold', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+}
+
+.footer__cards-card-title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFFFFFE5;
+    padding: 25px 0 21px 0;
+}
+
+.footer__cards-card-text {
+    width: 280px;
+    font-family: 'Poppins-Regular', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #FFFFFF8C;
+}
+
+.footer__cards-card2 {
+    width: 197px;
+    height: 142px;
+    margin-left: 156px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__cards-card2-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #FFFFFFE5;
+    margin-bottom: 20px;
+}
+
+.footer__cards-card2-p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFFFFF8C;
+}
+
+.footer__cards-card2-center {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFFFFF8C;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer__cards-card3 {
+    width: 112px;
+    height: 108px;
+    margin-left: 115px;
+    margin-right: 115px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__cards-card3-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #FFFFFFE5;
+    margin-bottom: 20px;
+}
+
+.footer__cards-card3-p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFFFFF8C;
+    margin-bottom: 10px;
+}
+.footer__cards-card3-p2 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFFFFF8C;
+}
+.footer__cards-card4 {
+    width: 144px;
+    height: 142px;
+    display: flex;
+    flex-direction: column;
+}
+.footer__cards-card4-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #FFFFFFE5;
+    margin-bottom: 20px;
+}
+
+.footer__cards-card4-p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFFFFF8C;
+}
+
+.footer__cards-card4-center {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFFFFF8C;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

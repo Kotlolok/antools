@@ -1,0 +1,29 @@
+.brand {
+    margin-bottom: 200px;
+}
+
+.brand__wrap {
+    background: linear-gradient(0deg, rgba(44, 53, 61, 0.2), rgba(44, 53, 61, 0.2)),
+        linear-gradient(92.39deg, rgba(255, 255, 255, 0.05) -4.6%, rgba(255, 255, 255, 0) 96.79%);
+    border: 2px solid;
+    border-image-source: linear-gradient(92.39deg, rgba(255, 255, 255, 0.05) -4.6%, rgba(255, 255, 255, 0) 96.79%);
+    width: 1224px;
+    height: 253px;
+    border-radius: 25px;
+}
+
+.brand__title {
+    color: #FFFFFFCC;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    margin: 55px 0;
+    text-align: center;
+}
+
+.brand__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 107px;
+}
