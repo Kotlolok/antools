@@ -45,11 +45,13 @@
 .header__nav-logsign {
     display: flex;
     align-items: center;
-   gap: 41px;
+    gap: 41px;
 }
+
 .header__nav-logsign-link {
     color: #FFFFFFC7;
 }
+
 .header__nav-logsign-link2 {
     background: #FF6E30;
     padding: 12px 28px;
@@ -57,7 +59,28 @@
     color: #fff;
     transition: .3s ease-in-out;
 }
+
 .header__nav-logsign-link2:hover {
     background: #fff;
     color: #FF6E30;
+}
+
+@media screen and (max-width:1000px) {
+    .header__nav {
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+    }
+}
+@media screen and (max-width:550px) {
+    .header__nav {
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+    }
+    .header__nav-list {
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
 }

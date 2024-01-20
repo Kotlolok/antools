@@ -1,6 +1,7 @@
 .newcomer {
     margin-bottom: 200px;
 }
+
 .newcomer__cards-card {
     max-width: 288px;
     width: 100%;
@@ -182,6 +183,7 @@
     display: flex;
     flex-wrap: wrap;
 }
+
 .block3 {
     display: flex;
     gap: 24px;
@@ -194,4 +196,47 @@
     display: flex;
     gap: 24px;
     justify-content: center;
+}
+
+@media screen and (max-width:1300px) {
+    .newcomer__wrap {
+        flex-direction: column;
+        justify-content: center;
+        gap: 100px;
+    }
+    .newcomer__tools {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .block3 {
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    .block4 {
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    .newcomer__cards {
+        justify-content: center;
+    }
+}
+@media screen and (max-width:460px) {
+    .newcomer__tools-title {
+        font-size: 36px;
+    }
+    .newcomer__tools-text {
+        font-size: 17px;
+        width: 300px;
+    }
+}
+@media screen and (max-width:360px) {
+    .newcomer__tools-title {
+        font-size: 36px;
+    }
+    .newcomer__tools-text {
+        font-size: 17px;
+        width: 200px;
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
 }

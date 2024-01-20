@@ -135,3 +135,27 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
+@media screen and (max-width:1200px) {
+    .footer__cards {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .footer__cards-card1 {
+        margin: 0 auto;
+    }
+    .footer__cards-card2 {
+        margin: 0 auto;
+    }
+    .footer__cards-card3 {
+        margin: 0 auto;
+    }
+    .footer__cards-card4 {
+        margin: 0 auto;
+    }
+    .footer__cards-card1 {
+        margin: 0 auto;
+    }
+    .footer__cards-card1 {
+        margin: 0 auto;
+    }
+}
